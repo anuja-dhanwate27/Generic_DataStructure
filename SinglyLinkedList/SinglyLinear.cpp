@@ -65,7 +65,7 @@ SinglyLLL<T>::SinglyLLL()
 //    Input         :   Data of node
 //    Output        :   Nothing
 //    Description   :   Used to insert node at first position
-//    Author        :   Anushka Ramesh Patare
+//    Author        :   Anuja Santosh Dhanwate
 //    Date          :   06/11/2026
 //
 //////////////////////////////////////////////////////////////////////////////////////////////////
@@ -89,7 +89,7 @@ void SinglyLLL<T>::InsertFirst(T no)
 //    Input         :   Data of node
 //    Output        :   Nothing
 //    Description   :   Used to insert node at last position
-//    Author        :   Anushka Ramesh Patare
+//    Author        :   Anuja Santosh Dhanwate
 //    Date          :   06/11/2026
 //
 //////////////////////////////////////////////////////////////////////////////////////////////////
@@ -125,7 +125,7 @@ void SinglyLLL<T>:: InsertLast(T no)
 //    Input         :   Nothing
 //    Output        :   Nothing
 //    Description   :   Used to delete node at first position
-//    Author        :   Anushka Ramesh Patare
+//    Author        :   Anuja Santosh Dhanwate
 //    Date          :   06/11/2026
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////// 
@@ -158,7 +158,7 @@ void SinglyLLL<T>:: DeleteFirst()
 //    Input         :   Nothing
 //    Output        :   Nothing
 //    Description   :   Used to delete node at last position
-//    Author        :   Anushka Ramesh Patare
+//    Author        :   Anuja Santosh Dhanwate
 //    Date          :   06/11/2026
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////// 
@@ -196,7 +196,7 @@ void SinglyLLL<T>:: DeleteLast()
 //    Input         :   Nothing
 //    Output        :   Nothing
 //    Description   :   Used to display each node 
-//    Author        :   Anushka Ramesh Patare
+//    Author        :   Anuja Santosh Dhanwate
 //    Date          :   06/11/2026
 //
 //////////////////////////////////////////////////////////////////////////////////////////////////
@@ -222,7 +222,7 @@ void SinglyLLL<T>:: Display()
 //    Input         :   Nothing
 //    Output        :   Returns integer value 
 //    Description   :   Used to count each node 
-//    Author        :   Anushka Ramesh Patare
+//    Author        :   Anuja Santosh Dhanwate
 //    Date          :   06/11/2026
 //
 //////////////////////////////////////////////////////////////////////////////////////////////////
@@ -239,7 +239,7 @@ int SinglyLLL<T>:: Count()
 //    Input         :   Data of node,int
 //    Output        :   Nothing
 //    Description   :   Used to intsert node at specific position
-//    Author        :   Anushka Ramesh Patare
+//    Author        :   Anuja Santosh Dhanwate
 //    Date          :   06/11/2026
 //
 ///
@@ -287,7 +287,7 @@ void SinglyLLL<T>::InsertAtPos(T no,int pos)
 //    Input         :   int
 //    Output        :   Nothing
 //    Description   :   Used to delete node at specific position
-//    Author        :   Anushka Ramesh Patare
+//    Author        :   Anuja Santosh Dhanwate
 //    Date          :   06/11/2026
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////// 
@@ -705,4 +705,5 @@ int main()
         cout<<"Sorry..! You have entered invalid datatype.\n";
     }
     return 0;
+
 }
