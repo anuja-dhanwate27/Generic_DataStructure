@@ -73,7 +73,7 @@ DoublyLLL<T> :: DoublyLLL()
 //    Input         :   Data of node
 //    Output        :   Nothing
 //    Description   :   Used to insert node at first position
-//    Author        :   Anushka Ramesh Patare
+//    Author        :   Anuja Santosh Dhanwate
 //    Date          :   06/11/2026
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////// 
@@ -103,7 +103,7 @@ void DoublyLLL <T>:: InsertFirst(T no)
 //    Input         :   Data of node
 //    Output        :   Nothing
 //    Description   :   Used to insert node at last position
-//    Author        :   Anushka Ramesh Patare
+//    Author        :    Anuja Santosh Dhanwate
 //    Date          :   06/11/2026
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////// 
@@ -140,7 +140,7 @@ void DoublyLLL <T> :: InsertLast(T no )
 //    Input         :   Data of node,int
 //    Output        :   Nothing
 //    Description   :   Used to insert node at specific position
-//    Author        :   Anushka Ramesh Patare
+//    Author        :   Anuja Santosh Dhanwate
 //    Date          :   06/11/2026
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////// 
@@ -192,7 +192,7 @@ void DoublyLLL <T> :: InsertAtPos(T no ,int pos)
 //    Input         :   Nothing
 //    Output        :   Nothing
 //    Description   :   Used to delete node at first position
-//    Author        :   Anushka Ramesh Patare
+//    Author        :   Anuja Santosh Dhanwate
 //    Date          :   06/11/2026
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////// 
@@ -225,7 +225,7 @@ void DoublyLLL <T> :: DeleteFirst()
 //    Input         :   Nothing
 //    Output        :   Nothing
 //    Description   :   Used to delete node at last position
-//    Author        :   Anushka Ramesh Patare
+//    Author        :   Anuja Santosh Dhanwate
 //    Date          :   06/11/2026
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////// 
@@ -263,7 +263,7 @@ void DoublyLLL <T>:: DeleteLast()
 //    Input         :   int
 //    Output        :   Nothing
 //    Description   :   Used to delete node at specific position
-//    Author        :   Anushka Ramesh Patare
+//    Author        :   Anuja Santosh Dhanwate
 //    Date          :   06/11/2026
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////// 
@@ -310,7 +310,7 @@ void DoublyLLL <T>:: DeleteAtPos(int pos)
 //    Input         :   Nothing
 //    Output        :   Nothing
 //    Description   :   Used to display all nodes
-//    Author        :   Anushka Ramesh Patare
+//    Author        :   Anuja Santosh Dhanwate
 //    Date          :   06/11/2026
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////// 
@@ -336,7 +336,7 @@ void DoublyLLL<T> :: Display()
 //    Input         :   Nothing
 //    Output        :   Nothing
 //    Description   :   Used to count all nodes
-//    Author        :   Anushka Ramesh Patare
+//    Author        :   Anuja Santosh Dhanwate
 //    Date          :   06/11/2026
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////// 
@@ -722,4 +722,5 @@ int main()
         cout<<"Sorry..! You have entered invalid datatype.\n";
     }
     return 0;
+
 }
